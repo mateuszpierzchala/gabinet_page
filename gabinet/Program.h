@@ -385,7 +385,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->tabControl1->Multiline = true;
 			this->tabControl1->Name = L"tabControl1";
 			this->tabControl1->SelectedIndex = 0;
-			this->tabControl1->Size = System::Drawing::Size(871, 716);
+			this->tabControl1->Size = System::Drawing::Size(1201, 631);
 			this->tabControl1->TabIndex = 0;
 			// 
 			// tabPage5
@@ -416,89 +416,89 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->tabPage5->Location = System::Drawing::Point(4, 4);
 			this->tabPage5->Name = L"tabPage5";
 			this->tabPage5->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage5->Size = System::Drawing::Size(863, 690);
+			this->tabPage5->Size = System::Drawing::Size(1193, 605);
 			this->tabPage5->TabIndex = 5;
-			this->tabPage5->Text = L"Rezerwacje";
+			this->tabPage5->Text = L"Reservations";
 			this->tabPage5->UseVisualStyleBackColor = true;
 			// 
 			// btnRModyfikacja
 			// 
 			this->btnRModyfikacja->Enabled = false;
-			this->btnRModyfikacja->Location = System::Drawing::Point(353, 398);
+			this->btnRModyfikacja->Location = System::Drawing::Point(429, 390);
 			this->btnRModyfikacja->Name = L"btnRModyfikacja";
-			this->btnRModyfikacja->Size = System::Drawing::Size(98, 23);
+			this->btnRModyfikacja->Size = System::Drawing::Size(134, 23);
 			this->btnRModyfikacja->TabIndex = 22;
-			this->btnRModyfikacja->Text = L"Modyfikacja";
+			this->btnRModyfikacja->Text = L"Modify";
 			this->btnRModyfikacja->UseVisualStyleBackColor = true;
 			this->btnRModyfikacja->Click += gcnew System::EventHandler(this, &Program::bntRModyfikacja_Click);
 			// 
 			// btnRUsun
 			// 
 			this->btnRUsun->Enabled = false;
-			this->btnRUsun->Location = System::Drawing::Point(253, 398);
+			this->btnRUsun->Location = System::Drawing::Point(295, 390);
 			this->btnRUsun->Name = L"btnRUsun";
-			this->btnRUsun->Size = System::Drawing::Size(71, 23);
+			this->btnRUsun->Size = System::Drawing::Size(127, 23);
 			this->btnRUsun->TabIndex = 21;
-			this->btnRUsun->Text = L"Usun";
+			this->btnRUsun->Text = L"Remove";
 			this->btnRUsun->UseVisualStyleBackColor = true;
 			this->btnRUsun->Click += gcnew System::EventHandler(this, &Program::btnRUsun_Click);
 			// 
 			// btnRDodaj
 			// 
-			this->btnRDodaj->Location = System::Drawing::Point(253, 357);
+			this->btnRDodaj->Location = System::Drawing::Point(295, 349);
 			this->btnRDodaj->Name = L"btnRDodaj";
-			this->btnRDodaj->Size = System::Drawing::Size(198, 23);
+			this->btnRDodaj->Size = System::Drawing::Size(268, 23);
 			this->btnRDodaj->TabIndex = 20;
-			this->btnRDodaj->Text = L"Dodaj";
+			this->btnRDodaj->Text = L"Add";
 			this->btnRDodaj->UseVisualStyleBackColor = true;
 			this->btnRDodaj->Click += gcnew System::EventHandler(this, &Program::btnRDodaj_Click);
 			// 
 			// label38
 			// 
 			this->label38->AutoSize = true;
-			this->label38->Location = System::Drawing::Point(256, 327);
+			this->label38->Location = System::Drawing::Point(292, 315);
 			this->label38->Name = L"label38";
-			this->label38->Size = System::Drawing::Size(39, 13);
+			this->label38->Size = System::Drawing::Size(30, 13);
 			this->label38->TabIndex = 19;
-			this->label38->Text = L"Termin";
+			this->label38->Text = L"Time";
 			// 
 			// label37
 			// 
 			this->label37->AutoSize = true;
-			this->label37->Location = System::Drawing::Point(256, 301);
+			this->label37->Location = System::Drawing::Point(292, 289);
 			this->label37->Name = L"label37";
-			this->label37->Size = System::Drawing::Size(40, 13);
+			this->label37->Size = System::Drawing::Size(43, 13);
 			this->label37->TabIndex = 18;
-			this->label37->Text = L"Usluga";
+			this->label37->Text = L"Service";
 			// 
 			// label36
 			// 
 			this->label36->AutoSize = true;
-			this->label36->Location = System::Drawing::Point(256, 268);
+			this->label36->Location = System::Drawing::Point(292, 263);
 			this->label36->Name = L"label36";
 			this->label36->Size = System::Drawing::Size(33, 13);
 			this->label36->TabIndex = 17;
-			this->label36->Text = L"Klient";
+			this->label36->Text = L"Client";
 			// 
 			// txtRTerminW
 			// 
-			this->txtRTerminW->Location = System::Drawing::Point(313, 320);
+			this->txtRTerminW->Location = System::Drawing::Point(393, 312);
 			this->txtRTerminW->Name = L"txtRTerminW";
-			this->txtRTerminW->Size = System::Drawing::Size(100, 20);
+			this->txtRTerminW->Size = System::Drawing::Size(170, 20);
 			this->txtRTerminW->TabIndex = 16;
 			// 
 			// txtRUslugatW
 			// 
-			this->txtRUslugatW->Location = System::Drawing::Point(313, 294);
+			this->txtRUslugatW->Location = System::Drawing::Point(393, 286);
 			this->txtRUslugatW->Name = L"txtRUslugatW";
-			this->txtRUslugatW->Size = System::Drawing::Size(100, 20);
+			this->txtRUslugatW->Size = System::Drawing::Size(170, 20);
 			this->txtRUslugatW->TabIndex = 15;
 			// 
 			// txtRKlientW
 			// 
-			this->txtRKlientW->Location = System::Drawing::Point(313, 268);
+			this->txtRKlientW->Location = System::Drawing::Point(393, 260);
 			this->txtRKlientW->Name = L"txtRKlientW";
-			this->txtRKlientW->Size = System::Drawing::Size(100, 20);
+			this->txtRKlientW->Size = System::Drawing::Size(170, 20);
 			this->txtRKlientW->TabIndex = 14;
 			// 
 			// dgRPracownik
@@ -506,42 +506,42 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->dgRPracownik->AllowUserToAddRows = false;
 			this->dgRPracownik->AllowUserToOrderColumns = true;
 			this->dgRPracownik->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dgRPracownik->Location = System::Drawing::Point(602, 116);
+			this->dgRPracownik->Location = System::Drawing::Point(668, 71);
 			this->dgRPracownik->Name = L"dgRPracownik";
-			this->dgRPracownik->Size = System::Drawing::Size(236, 91);
+			this->dgRPracownik->Size = System::Drawing::Size(482, 130);
 			this->dgRPracownik->TabIndex = 13;
 			this->dgRPracownik->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Program::dgRPracownik_CellClick);
 			// 
 			// label35
 			// 
 			this->label35->AutoSize = true;
-			this->label35->Location = System::Drawing::Point(545, 63);
+			this->label35->Location = System::Drawing::Point(611, 45);
 			this->label35->Name = L"label35";
-			this->label35->Size = System::Drawing::Size(57, 13);
+			this->label35->Size = System::Drawing::Size(53, 13);
 			this->label35->TabIndex = 12;
-			this->label35->Text = L"Pracownik";
+			this->label35->Text = L"Employee";
 			// 
 			// txtRPracownik
 			// 
-			this->txtRPracownik->Location = System::Drawing::Point(612, 65);
+			this->txtRPracownik->Location = System::Drawing::Point(678, 42);
 			this->txtRPracownik->Name = L"txtRPracownik";
-			this->txtRPracownik->Size = System::Drawing::Size(100, 20);
+			this->txtRPracownik->Size = System::Drawing::Size(99, 20);
 			this->txtRPracownik->TabIndex = 11;
 			// 
 			// btnRPracownik
 			// 
-			this->btnRPracownik->Location = System::Drawing::Point(733, 63);
+			this->btnRPracownik->Location = System::Drawing::Point(799, 42);
 			this->btnRPracownik->Name = L"btnRPracownik";
-			this->btnRPracownik->Size = System::Drawing::Size(75, 23);
+			this->btnRPracownik->Size = System::Drawing::Size(74, 23);
 			this->btnRPracownik->TabIndex = 10;
-			this->btnRPracownik->Text = L"Szukaj";
+			this->btnRPracownik->Text = L"Search";
 			this->btnRPracownik->UseVisualStyleBackColor = true;
 			this->btnRPracownik->Click += gcnew System::EventHandler(this, &Program::btnRPracownik_Click);
 			// 
 			// monthCalendar1
 			// 
 			this->monthCalendar1->Enabled = false;
-			this->monthCalendar1->Location = System::Drawing::Point(229, 45);
+			this->monthCalendar1->Location = System::Drawing::Point(295, 45);
 			this->monthCalendar1->Name = L"monthCalendar1";
 			this->monthCalendar1->TabIndex = 9;
 			this->monthCalendar1->DateSelected += gcnew System::Windows::Forms::DateRangeEventHandler(this, &Program::monthCalendar1_DateSelected);
@@ -550,19 +550,19 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			// 
 			this->gbRGodziny->Location = System::Drawing::Point(33, 37);
 			this->gbRGodziny->Name = L"gbRGodziny";
-			this->gbRGodziny->Size = System::Drawing::Size(147, 635);
+			this->gbRGodziny->Size = System::Drawing::Size(224, 519);
 			this->gbRGodziny->TabIndex = 8;
 			this->gbRGodziny->TabStop = false;
-			this->gbRGodziny->Text = L"Godziny";
+			this->gbRGodziny->Text = L"Time";
 			// 
 			// dgRUslugi
 			// 
 			this->dgRUslugi->AllowUserToAddRows = false;
 			this->dgRUslugi->AllowUserToOrderColumns = true;
 			this->dgRUslugi->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dgRUslugi->Location = System::Drawing::Point(602, 465);
+			this->dgRUslugi->Location = System::Drawing::Point(668, 431);
 			this->dgRUslugi->Name = L"dgRUslugi";
-			this->dgRUslugi->Size = System::Drawing::Size(236, 91);
+			this->dgRUslugi->Size = System::Drawing::Size(482, 136);
 			this->dgRUslugi->TabIndex = 7;
 			this->dgRUslugi->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Program::dgRUslugi_CellClick);
 			// 
@@ -571,61 +571,61 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->dgRKlient->AllowUserToAddRows = false;
 			this->dgRKlient->AllowUserToOrderColumns = true;
 			this->dgRKlient->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dgRKlient->Location = System::Drawing::Point(602, 281);
+			this->dgRKlient->Location = System::Drawing::Point(668, 247);
 			this->dgRKlient->Name = L"dgRKlient";
-			this->dgRKlient->Size = System::Drawing::Size(236, 91);
+			this->dgRKlient->Size = System::Drawing::Size(482, 136);
 			this->dgRKlient->TabIndex = 6;
 			this->dgRKlient->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Program::dgRKlient_CellClick);
 			// 
 			// label34
 			// 
 			this->label34->AutoSize = true;
-			this->label34->Location = System::Drawing::Point(545, 419);
+			this->label34->Location = System::Drawing::Point(611, 403);
 			this->label34->Name = L"label34";
-			this->label34->Size = System::Drawing::Size(40, 13);
+			this->label34->Size = System::Drawing::Size(43, 13);
 			this->label34->TabIndex = 5;
-			this->label34->Text = L"Usluga";
+			this->label34->Text = L"Service";
 			// 
 			// txtRUslugi
 			// 
-			this->txtRUslugi->Location = System::Drawing::Point(612, 412);
+			this->txtRUslugi->Location = System::Drawing::Point(678, 400);
 			this->txtRUslugi->Name = L"txtRUslugi";
-			this->txtRUslugi->Size = System::Drawing::Size(100, 20);
+			this->txtRUslugi->Size = System::Drawing::Size(99, 20);
 			this->txtRUslugi->TabIndex = 4;
 			// 
 			// btnRUsluga
 			// 
-			this->btnRUsluga->Location = System::Drawing::Point(733, 410);
+			this->btnRUsluga->Location = System::Drawing::Point(799, 400);
 			this->btnRUsluga->Name = L"btnRUsluga";
-			this->btnRUsluga->Size = System::Drawing::Size(75, 23);
+			this->btnRUsluga->Size = System::Drawing::Size(74, 23);
 			this->btnRUsluga->TabIndex = 3;
-			this->btnRUsluga->Text = L"Szukaj";
+			this->btnRUsluga->Text = L"Search";
 			this->btnRUsluga->UseVisualStyleBackColor = true;
 			this->btnRUsluga->Click += gcnew System::EventHandler(this, &Program::txtRUsluga_Click);
 			// 
 			// label31
 			// 
 			this->label31->AutoSize = true;
-			this->label31->Location = System::Drawing::Point(545, 228);
+			this->label31->Location = System::Drawing::Point(611, 221);
 			this->label31->Name = L"label31";
 			this->label31->Size = System::Drawing::Size(33, 13);
 			this->label31->TabIndex = 2;
-			this->label31->Text = L"Klient";
+			this->label31->Text = L"Client";
 			// 
 			// txtRKlient
 			// 
-			this->txtRKlient->Location = System::Drawing::Point(612, 230);
+			this->txtRKlient->Location = System::Drawing::Point(678, 218);
 			this->txtRKlient->Name = L"txtRKlient";
-			this->txtRKlient->Size = System::Drawing::Size(100, 20);
+			this->txtRKlient->Size = System::Drawing::Size(99, 20);
 			this->txtRKlient->TabIndex = 1;
 			// 
 			// btnRKlient
 			// 
-			this->btnRKlient->Location = System::Drawing::Point(733, 228);
+			this->btnRKlient->Location = System::Drawing::Point(799, 218);
 			this->btnRKlient->Name = L"btnRKlient";
-			this->btnRKlient->Size = System::Drawing::Size(75, 23);
+			this->btnRKlient->Size = System::Drawing::Size(74, 23);
 			this->btnRKlient->TabIndex = 0;
-			this->btnRKlient->Text = L"Szukaj";
+			this->btnRKlient->Text = L"Search";
 			this->btnRKlient->UseVisualStyleBackColor = true;
 			this->btnRKlient->Click += gcnew System::EventHandler(this, &Program::btnRKlient_Click);
 			// 
@@ -642,9 +642,9 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->tabControl5->Location = System::Drawing::Point(4, 4);
 			this->tabControl5->Name = L"tabControl5";
 			this->tabControl5->Padding = System::Windows::Forms::Padding(3);
-			this->tabControl5->Size = System::Drawing::Size(863, 690);
+			this->tabControl5->Size = System::Drawing::Size(1193, 605);
 			this->tabControl5->TabIndex = 4;
-			this->tabControl5->Text = L"Klienci";
+			this->tabControl5->Text = L"Clients";
 			this->tabControl5->UseVisualStyleBackColor = true;
 			// 
 			// btnKDodaj
@@ -653,7 +653,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->btnKDodaj->Name = L"btnKDodaj";
 			this->btnKDodaj->Size = System::Drawing::Size(75, 23);
 			this->btnKDodaj->TabIndex = 7;
-			this->btnKDodaj->Text = L"Dodaj";
+			this->btnKDodaj->Text = L"Add";
 			this->btnKDodaj->UseVisualStyleBackColor = true;
 			this->btnKDodaj->Click += gcnew System::EventHandler(this, &Program::btnKDodaj_Click);
 			// 
@@ -663,7 +663,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->btnKModyfikuj->Name = L"btnKModyfikuj";
 			this->btnKModyfikuj->Size = System::Drawing::Size(75, 23);
 			this->btnKModyfikuj->TabIndex = 6;
-			this->btnKModyfikuj->Text = L"Modyfikuj";
+			this->btnKModyfikuj->Text = L"Modify";
 			this->btnKModyfikuj->UseVisualStyleBackColor = true;
 			this->btnKModyfikuj->Visible = false;
 			this->btnKModyfikuj->Click += gcnew System::EventHandler(this, &Program::btnKModyfikuj_Click);
@@ -674,7 +674,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->btnKUsun->Name = L"btnKUsun";
 			this->btnKUsun->Size = System::Drawing::Size(75, 23);
 			this->btnKUsun->TabIndex = 5;
-			this->btnKUsun->Text = L"Usuñ";
+			this->btnKUsun->Text = L"Remove";
 			this->btnKUsun->UseVisualStyleBackColor = true;
 			this->btnKUsun->Visible = false;
 			this->btnKUsun->Click += gcnew System::EventHandler(this, &Program::btnKUsun_Click);
@@ -700,7 +700,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->gbKlienci->Size = System::Drawing::Size(632, 164);
 			this->gbKlienci->TabIndex = 4;
 			this->gbKlienci->TabStop = false;
-			this->gbKlienci->Text = L"Edycja danych klienta";
+			this->gbKlienci->Text = L"Modify clients data";
 			// 
 			// txtKKod
 			// 
@@ -722,18 +722,18 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label33->AutoSize = true;
 			this->label33->Location = System::Drawing::Point(283, 118);
 			this->label33->Name = L"label33";
-			this->label33->Size = System::Drawing::Size(68, 13);
+			this->label33->Size = System::Drawing::Size(24, 13);
 			this->label33->TabIndex = 15;
-			this->label33->Text = L"Miejscowosc";
+			this->label33->Text = L"City";
 			// 
 			// label32
 			// 
 			this->label32->AutoSize = true;
 			this->label32->Location = System::Drawing::Point(283, 88);
 			this->label32->Name = L"label32";
-			this->label32->Size = System::Drawing::Size(74, 13);
+			this->label32->Size = System::Drawing::Size(63, 13);
 			this->label32->TabIndex = 13;
-			this->label32->Text = L"Kod pocztowy";
+			this->label32->Text = L"Postal code";
 			// 
 			// txtKUlica
 			// 
@@ -747,13 +747,13 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label30->AutoSize = true;
 			this->label30->Location = System::Drawing::Point(283, 28);
 			this->label30->Name = L"label30";
-			this->label30->Size = System::Drawing::Size(31, 13);
+			this->label30->Size = System::Drawing::Size(35, 13);
 			this->label30->TabIndex = 9;
-			this->label30->Text = L"Ulica";
+			this->label30->Text = L"Street";
 			// 
 			// txtKTelefon
 			// 
-			this->txtKTelefon->Location = System::Drawing::Point(81, 115);
+			this->txtKTelefon->Location = System::Drawing::Point(125, 115);
 			this->txtKTelefon->Name = L"txtKTelefon";
 			this->txtKTelefon->Size = System::Drawing::Size(120, 20);
 			this->txtKTelefon->TabIndex = 8;
@@ -763,13 +763,13 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label29->AutoSize = true;
 			this->label29->Location = System::Drawing::Point(19, 118);
 			this->label29->Name = L"label29";
-			this->label29->Size = System::Drawing::Size(39, 13);
+			this->label29->Size = System::Drawing::Size(76, 13);
 			this->label29->TabIndex = 7;
-			this->label29->Text = L"telefon";
+			this->label29->Text = L"Phone number";
 			// 
 			// txtKEmail
 			// 
-			this->txtKEmail->Location = System::Drawing::Point(81, 85);
+			this->txtKEmail->Location = System::Drawing::Point(125, 85);
 			this->txtKEmail->Name = L"txtKEmail";
 			this->txtKEmail->Size = System::Drawing::Size(120, 20);
 			this->txtKEmail->TabIndex = 6;
@@ -779,13 +779,13 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label28->AutoSize = true;
 			this->label28->Location = System::Drawing::Point(19, 88);
 			this->label28->Name = L"label28";
-			this->label28->Size = System::Drawing::Size(31, 13);
+			this->label28->Size = System::Drawing::Size(34, 13);
 			this->label28->TabIndex = 5;
-			this->label28->Text = L"email";
+			this->label28->Text = L"e-mail";
 			// 
 			// txtKNazwisko
 			// 
-			this->txtKNazwisko->Location = System::Drawing::Point(81, 55);
+			this->txtKNazwisko->Location = System::Drawing::Point(125, 55);
 			this->txtKNazwisko->Name = L"txtKNazwisko";
 			this->txtKNazwisko->Size = System::Drawing::Size(120, 20);
 			this->txtKNazwisko->TabIndex = 4;
@@ -795,13 +795,13 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label27->AutoSize = true;
 			this->label27->Location = System::Drawing::Point(19, 58);
 			this->label27->Name = L"label27";
-			this->label27->Size = System::Drawing::Size(53, 13);
+			this->label27->Size = System::Drawing::Size(49, 13);
 			this->label27->TabIndex = 3;
-			this->label27->Text = L"Nazwisko";
+			this->label27->Text = L"Surname";
 			// 
 			// txtKImie
 			// 
-			this->txtKImie->Location = System::Drawing::Point(81, 25);
+			this->txtKImie->Location = System::Drawing::Point(125, 25);
 			this->txtKImie->Name = L"txtKImie";
 			this->txtKImie->Size = System::Drawing::Size(120, 20);
 			this->txtKImie->TabIndex = 2;
@@ -811,9 +811,9 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label26->AutoSize = true;
 			this->label26->Location = System::Drawing::Point(19, 28);
 			this->label26->Name = L"label26";
-			this->label26->Size = System::Drawing::Size(26, 13);
+			this->label26->Size = System::Drawing::Size(35, 13);
 			this->label26->TabIndex = 1;
-			this->label26->Text = L"Imiê";
+			this->label26->Text = L"Name";
 			// 
 			// dgKlienci
 			// 
@@ -828,11 +828,11 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			// 
 			// btnKSzukaj
 			// 
-			this->btnKSzukaj->Location = System::Drawing::Point(238, 21);
+			this->btnKSzukaj->Location = System::Drawing::Point(239, 19);
 			this->btnKSzukaj->Name = L"btnKSzukaj";
 			this->btnKSzukaj->Size = System::Drawing::Size(75, 23);
 			this->btnKSzukaj->TabIndex = 2;
-			this->btnKSzukaj->Text = L"Szukaj";
+			this->btnKSzukaj->Text = L"Search";
 			this->btnKSzukaj->UseVisualStyleBackColor = true;
 			this->btnKSzukaj->Click += gcnew System::EventHandler(this, &Program::btnKSzukaj_Click);
 			// 
@@ -850,7 +850,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label25->Name = L"label25";
 			this->label25->Size = System::Drawing::Size(36, 13);
 			this->label25->TabIndex = 0;
-			this->label25->Text = L"Klient:";
+			this->label25->Text = L"Client:";
 			// 
 			// tabPage4
 			// 
@@ -870,23 +870,23 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->tabPage4->Location = System::Drawing::Point(4, 4);
 			this->tabPage4->Name = L"tabPage4";
 			this->tabPage4->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage4->Size = System::Drawing::Size(863, 690);
+			this->tabPage4->Size = System::Drawing::Size(1193, 605);
 			this->tabPage4->TabIndex = 3;
-			this->tabPage4->Text = L"Pracownik - Uslugi";
+			this->tabPage4->Text = L"Eployee - Services";
 			this->tabPage4->UseVisualStyleBackColor = true;
 			// 
 			// txtPUImie
 			// 
-			this->txtPUImie->Location = System::Drawing::Point(110, 84);
+			this->txtPUImie->Location = System::Drawing::Point(145, 84);
 			this->txtPUImie->Name = L"txtPUImie";
-			this->txtPUImie->Size = System::Drawing::Size(100, 20);
+			this->txtPUImie->Size = System::Drawing::Size(128, 20);
 			this->txtPUImie->TabIndex = 12;
 			// 
 			// txtPUNazwisko
 			// 
-			this->txtPUNazwisko->Location = System::Drawing::Point(110, 124);
+			this->txtPUNazwisko->Location = System::Drawing::Point(145, 124);
 			this->txtPUNazwisko->Name = L"txtPUNazwisko";
-			this->txtPUNazwisko->Size = System::Drawing::Size(100, 20);
+			this->txtPUNazwisko->Size = System::Drawing::Size(128, 20);
 			this->txtPUNazwisko->TabIndex = 11;
 			// 
 			// label24
@@ -894,104 +894,104 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label24->AutoSize = true;
 			this->label24->Location = System::Drawing::Point(27, 84);
 			this->label24->Name = L"label24";
-			this->label24->Size = System::Drawing::Size(26, 13);
+			this->label24->Size = System::Drawing::Size(35, 13);
 			this->label24->TabIndex = 10;
-			this->label24->Text = L"Imie";
+			this->label24->Text = L"Name";
 			// 
 			// label23
 			// 
 			this->label23->AutoSize = true;
 			this->label23->Location = System::Drawing::Point(27, 127);
 			this->label23->Name = L"label23";
-			this->label23->Size = System::Drawing::Size(53, 13);
+			this->label23->Size = System::Drawing::Size(49, 13);
 			this->label23->TabIndex = 9;
-			this->label23->Text = L"Nazwisko";
+			this->label23->Text = L"Surname";
 			// 
 			// label22
 			// 
 			this->label22->AutoSize = true;
-			this->label22->Location = System::Drawing::Point(15, 206);
+			this->label22->Location = System::Drawing::Point(15, 217);
 			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(69, 13);
+			this->label22->Size = System::Drawing::Size(122, 13);
 			this->label22->TabIndex = 8;
-			this->label22->Text = L"Dodaj usluge";
+			this->label22->Text = L"Add to emplyee services";
 			// 
 			// dgPUUslugiNowe
 			// 
 			this->dgPUUslugiNowe->AllowUserToAddRows = false;
 			this->dgPUUslugiNowe->AllowUserToOrderColumns = true;
 			this->dgPUUslugiNowe->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dgPUUslugiNowe->Location = System::Drawing::Point(18, 222);
+			this->dgPUUslugiNowe->Location = System::Drawing::Point(18, 233);
 			this->dgPUUslugiNowe->Name = L"dgPUUslugiNowe";
-			this->dgPUUslugiNowe->Size = System::Drawing::Size(304, 157);
+			this->dgPUUslugiNowe->Size = System::Drawing::Size(503, 157);
 			this->dgPUUslugiNowe->TabIndex = 7;
 			this->dgPUUslugiNowe->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Program::dgPUUslugiNowe_CellClick);
 			// 
 			// label21
 			// 
 			this->label21->AutoSize = true;
-			this->label21->Location = System::Drawing::Point(363, 206);
+			this->label21->Location = System::Drawing::Point(632, 217);
 			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(102, 13);
+			this->label21->Size = System::Drawing::Size(178, 13);
 			this->label21->TabIndex = 6;
-			this->label21->Text = L"Wykonywane uslugi";
+			this->label21->Text = L"Services performed by the employee";
 			// 
 			// dgPUUslugi
 			// 
 			this->dgPUUslugi->AllowUserToAddRows = false;
 			this->dgPUUslugi->AllowUserToOrderColumns = true;
 			this->dgPUUslugi->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dgPUUslugi->Location = System::Drawing::Point(366, 222);
+			this->dgPUUslugi->Location = System::Drawing::Point(635, 233);
 			this->dgPUUslugi->Name = L"dgPUUslugi";
-			this->dgPUUslugi->Size = System::Drawing::Size(376, 157);
+			this->dgPUUslugi->Size = System::Drawing::Size(534, 157);
 			this->dgPUUslugi->TabIndex = 5;
 			this->dgPUUslugi->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Program::dgPUUslugi_CellClick);
 			// 
 			// label20
 			// 
 			this->label20->AutoSize = true;
-			this->label20->Location = System::Drawing::Point(363, 12);
+			this->label20->Location = System::Drawing::Point(632, 26);
 			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(57, 13);
+			this->label20->Size = System::Drawing::Size(47, 13);
 			this->label20->TabIndex = 4;
-			this->label20->Text = L"Pracownik";
+			this->label20->Text = L"Emplyee";
 			// 
 			// dgPUPracownik
 			// 
 			this->dgPUPracownik->AllowUserToAddRows = false;
 			this->dgPUPracownik->AllowUserToOrderColumns = true;
 			this->dgPUPracownik->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dgPUPracownik->Location = System::Drawing::Point(363, 31);
+			this->dgPUPracownik->Location = System::Drawing::Point(632, 42);
 			this->dgPUPracownik->Name = L"dgPUPracownik";
-			this->dgPUPracownik->Size = System::Drawing::Size(376, 157);
+			this->dgPUPracownik->Size = System::Drawing::Size(534, 157);
 			this->dgPUPracownik->TabIndex = 3;
 			this->dgPUPracownik->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Program::dgPUPracownik_CellClick);
 			// 
 			// btnPUSzukaj
 			// 
-			this->btnPUSzukaj->Location = System::Drawing::Point(247, 27);
+			this->btnPUSzukaj->Location = System::Drawing::Point(294, 42);
 			this->btnPUSzukaj->Name = L"btnPUSzukaj";
-			this->btnPUSzukaj->Size = System::Drawing::Size(75, 23);
+			this->btnPUSzukaj->Size = System::Drawing::Size(103, 23);
 			this->btnPUSzukaj->TabIndex = 2;
-			this->btnPUSzukaj->Text = L"Szukaj";
+			this->btnPUSzukaj->Text = L"Serach";
 			this->btnPUSzukaj->UseVisualStyleBackColor = true;
 			this->btnPUSzukaj->Click += gcnew System::EventHandler(this, &Program::btnPUSzukaj_Click);
 			// 
 			// txtPUSzukaj
 			// 
-			this->txtPUSzukaj->Location = System::Drawing::Point(110, 31);
+			this->txtPUSzukaj->Location = System::Drawing::Point(145, 42);
 			this->txtPUSzukaj->Name = L"txtPUSzukaj";
-			this->txtPUSzukaj->Size = System::Drawing::Size(100, 20);
+			this->txtPUSzukaj->Size = System::Drawing::Size(128, 20);
 			this->txtPUSzukaj->TabIndex = 1;
 			// 
 			// label19
 			// 
 			this->label19->AutoSize = true;
-			this->label19->Location = System::Drawing::Point(27, 31);
+			this->label19->Location = System::Drawing::Point(27, 42);
 			this->label19->Name = L"label19";
-			this->label19->Size = System::Drawing::Size(57, 13);
+			this->label19->Size = System::Drawing::Size(47, 13);
 			this->label19->TabIndex = 0;
-			this->label19->Text = L"Pracownik\r\n";
+			this->label19->Text = L"Emplyee";
 			// 
 			// tabPage3
 			// 
@@ -1006,19 +1006,19 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->tabPage3->Location = System::Drawing::Point(4, 4);
 			this->tabPage3->Name = L"tabPage3";
 			this->tabPage3->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage3->Size = System::Drawing::Size(863, 690);
+			this->tabPage3->Size = System::Drawing::Size(1193, 605);
 			this->tabPage3->TabIndex = 2;
-			this->tabPage3->Text = L"Us³ugi";
+			this->tabPage3->Text = L"Services";
 			this->tabPage3->UseVisualStyleBackColor = true;
 			// 
 			// btnUModyfikuj
 			// 
 			this->btnUModyfikuj->Enabled = false;
-			this->btnUModyfikuj->Location = System::Drawing::Point(162, 553);
+			this->btnUModyfikuj->Location = System::Drawing::Point(159, 553);
 			this->btnUModyfikuj->Name = L"btnUModyfikuj";
 			this->btnUModyfikuj->Size = System::Drawing::Size(75, 23);
 			this->btnUModyfikuj->TabIndex = 7;
-			this->btnUModyfikuj->Text = L"modyfikuj";
+			this->btnUModyfikuj->Text = L"Modify";
 			this->btnUModyfikuj->UseVisualStyleBackColor = true;
 			this->btnUModyfikuj->Click += gcnew System::EventHandler(this, &Program::btnUModyfikuj_Click);
 			// 
@@ -1029,7 +1029,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->btnUUsun->Name = L"btnUUsun";
 			this->btnUUsun->Size = System::Drawing::Size(75, 23);
 			this->btnUUsun->TabIndex = 6;
-			this->btnUUsun->Text = L"usun";
+			this->btnUUsun->Text = L"Remove";
 			this->btnUUsun->UseVisualStyleBackColor = true;
 			this->btnUUsun->Click += gcnew System::EventHandler(this, &Program::btnUUsun_Click);
 			// 
@@ -1039,7 +1039,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->btnUDodaj->Name = L"btnUDodaj";
 			this->btnUDodaj->Size = System::Drawing::Size(75, 23);
 			this->btnUDodaj->TabIndex = 5;
-			this->btnUDodaj->Text = L"dodaj";
+			this->btnUDodaj->Text = L"Add";
 			this->btnUDodaj->UseVisualStyleBackColor = true;
 			this->btnUDodaj->Click += gcnew System::EventHandler(this, &Program::btnUDodaj_Click);
 			// 
@@ -1055,23 +1055,23 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->groupBox3->Controls->Add(this->label15);
 			this->groupBox3->Location = System::Drawing::Point(23, 107);
 			this->groupBox3->Name = L"groupBox3";
-			this->groupBox3->Size = System::Drawing::Size(351, 422);
+			this->groupBox3->Size = System::Drawing::Size(395, 422);
 			this->groupBox3->TabIndex = 4;
 			this->groupBox3->TabStop = false;
-			this->groupBox3->Text = L"Zabiegi:";
+			this->groupBox3->Text = L"Services:";
 			// 
 			// txtUCena
 			// 
 			this->txtUCena->Location = System::Drawing::Point(232, 68);
 			this->txtUCena->Name = L"txtUCena";
-			this->txtUCena->Size = System::Drawing::Size(73, 20);
+			this->txtUCena->Size = System::Drawing::Size(119, 20);
 			this->txtUCena->TabIndex = 7;
 			// 
 			// txtUCzas
 			// 
 			this->txtUCzas->Location = System::Drawing::Point(232, 108);
 			this->txtUCzas->Name = L"txtUCzas";
-			this->txtUCzas->Size = System::Drawing::Size(73, 20);
+			this->txtUCzas->Size = System::Drawing::Size(119, 20);
 			this->txtUCzas->TabIndex = 6;
 			// 
 			// txtUOpis
@@ -1079,14 +1079,14 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->txtUOpis->Location = System::Drawing::Point(9, 182);
 			this->txtUOpis->Multiline = true;
 			this->txtUOpis->Name = L"txtUOpis";
-			this->txtUOpis->Size = System::Drawing::Size(296, 134);
+			this->txtUOpis->Size = System::Drawing::Size(342, 134);
 			this->txtUOpis->TabIndex = 5;
 			// 
 			// txtUNazwa
 			// 
 			this->txtUNazwa->Location = System::Drawing::Point(176, 25);
 			this->txtUNazwa->Name = L"txtUNazwa";
-			this->txtUNazwa->Size = System::Drawing::Size(129, 20);
+			this->txtUNazwa->Size = System::Drawing::Size(175, 20);
 			this->txtUNazwa->TabIndex = 4;
 			// 
 			// label18
@@ -1094,18 +1094,18 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label18->AutoSize = true;
 			this->label18->Location = System::Drawing::Point(6, 152);
 			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(26, 13);
+			this->label18->Size = System::Drawing::Size(60, 13);
 			this->label18->TabIndex = 3;
-			this->label18->Text = L"opis";
+			this->label18->Text = L"Description";
 			// 
 			// label17
 			// 
 			this->label17->AutoSize = true;
 			this->label17->Location = System::Drawing::Point(6, 111);
 			this->label17->Name = L"label17";
-			this->label17->Size = System::Drawing::Size(69, 13);
+			this->label17->Size = System::Drawing::Size(102, 13);
 			this->label17->TabIndex = 2;
-			this->label17->Text = L"czas zabiegu";
+			this->label17->Text = L"Total time of service";
 			// 
 			// label16
 			// 
@@ -1114,25 +1114,25 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label16->Name = L"label16";
 			this->label16->Size = System::Drawing::Size(31, 13);
 			this->label16->TabIndex = 1;
-			this->label16->Text = L"cena";
+			this->label16->Text = L"Price";
 			// 
 			// label15
 			// 
 			this->label15->AutoSize = true;
 			this->label15->Location = System::Drawing::Point(6, 28);
 			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(38, 13);
+			this->label15->Size = System::Drawing::Size(35, 13);
 			this->label15->TabIndex = 0;
-			this->label15->Text = L"nazwa";
+			this->label15->Text = L"Name";
 			// 
 			// dgUslugi
 			// 
 			this->dgUslugi->AllowUserToAddRows = false;
 			this->dgUslugi->AllowUserToOrderColumns = true;
 			this->dgUslugi->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dgUslugi->Location = System::Drawing::Point(451, 29);
+			this->dgUslugi->Location = System::Drawing::Point(634, 29);
 			this->dgUslugi->Name = L"dgUslugi";
-			this->dgUslugi->Size = System::Drawing::Size(357, 501);
+			this->dgUslugi->Size = System::Drawing::Size(533, 501);
 			this->dgUslugi->TabIndex = 3;
 			this->dgUslugi->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Program::dgUslugi_CellClick);
 			// 
@@ -1140,9 +1140,9 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			// 
 			this->button5->Location = System::Drawing::Point(311, 28);
 			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(75, 23);
+			this->button5->Size = System::Drawing::Size(107, 23);
 			this->button5->TabIndex = 2;
-			this->button5->Text = L"szukaj";
+			this->button5->Text = L"Search";
 			this->button5->UseVisualStyleBackColor = true;
 			this->button5->Click += gcnew System::EventHandler(this, &Program::button5_Click);
 			// 
@@ -1158,9 +1158,9 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label14->AutoSize = true;
 			this->label14->Location = System::Drawing::Point(6, 29);
 			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(43, 13);
+			this->label14->Size = System::Drawing::Size(46, 13);
 			this->label14->TabIndex = 0;
-			this->label14->Text = L"Zabieg:";
+			this->label14->Text = L"Service:";
 			// 
 			// tabPage2
 			// 
@@ -1176,9 +1176,9 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->tabPage2->Location = System::Drawing::Point(4, 4);
 			this->tabPage2->Name = L"tabPage2";
 			this->tabPage2->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage2->Size = System::Drawing::Size(863, 690);
+			this->tabPage2->Size = System::Drawing::Size(1193, 605);
 			this->tabPage2->TabIndex = 1;
-			this->tabPage2->Text = L"Workers";
+			this->tabPage2->Text = L"Employees";
 			this->tabPage2->UseVisualStyleBackColor = true;
 			// 
 			// gbGodziny
@@ -1202,9 +1202,9 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->gbGodziny->Controls->Add(this->txtP1k);
 			this->gbGodziny->Controls->Add(this->txtP1p);
 			this->gbGodziny->Controls->Add(this->label8);
-			this->gbGodziny->Location = System::Drawing::Point(30, 243);
+			this->gbGodziny->Location = System::Drawing::Point(21, 257);
 			this->gbGodziny->Name = L"gbGodziny";
-			this->gbGodziny->Size = System::Drawing::Size(609, 239);
+			this->gbGodziny->Size = System::Drawing::Size(1108, 239);
 			this->gbGodziny->TabIndex = 9;
 			this->gbGodziny->TabStop = false;
 			this->gbGodziny->Text = L"Godziny pracy";
@@ -1215,16 +1215,16 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->groupBox4->Controls->Add(this->button3);
 			this->groupBox4->Controls->Add(this->button2);
 			this->groupBox4->Controls->Add(this->button1);
-			this->groupBox4->Location = System::Drawing::Point(330, 44);
+			this->groupBox4->Location = System::Drawing::Point(427, 44);
 			this->groupBox4->Name = L"groupBox4";
-			this->groupBox4->Size = System::Drawing::Size(243, 150);
+			this->groupBox4->Size = System::Drawing::Size(155, 143);
 			this->groupBox4->TabIndex = 18;
 			this->groupBox4->TabStop = false;
-			this->groupBox4->Text = L"Szablony";
+			this->groupBox4->Text = L"Use pre-defined values";
 			// 
 			// button4
 			// 
-			this->button4->Location = System::Drawing::Point(36, 101);
+			this->button4->Location = System::Drawing::Point(37, 105);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(75, 23);
 			this->button4->TabIndex = 3;
@@ -1234,7 +1234,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(36, 73);
+			this->button3->Location = System::Drawing::Point(37, 77);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(75, 23);
 			this->button3->TabIndex = 2;
@@ -1244,7 +1244,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			// 
 			// button2
 			// 
-			this->button2->Location = System::Drawing::Point(36, 47);
+			this->button2->Location = System::Drawing::Point(37, 51);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(75, 23);
 			this->button2->TabIndex = 1;
@@ -1254,7 +1254,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(36, 22);
+			this->button1->Location = System::Drawing::Point(37, 26);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 23);
 			this->button1->TabIndex = 0;
@@ -1281,9 +1281,9 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label13->AutoSize = true;
 			this->label13->Location = System::Drawing::Point(13, 174);
 			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(41, 13);
+			this->label13->Size = System::Drawing::Size(49, 13);
 			this->label13->TabIndex = 15;
-			this->label13->Text = L"Sobota";
+			this->label13->Text = L"Saturday";
 			// 
 			// txtP5k
 			// 
@@ -1304,9 +1304,9 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label12->AutoSize = true;
 			this->label12->Location = System::Drawing::Point(13, 148);
 			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(37, 13);
+			this->label12->Size = System::Drawing::Size(35, 13);
 			this->label12->TabIndex = 12;
-			this->label12->Text = L"Pi¹tek";
+			this->label12->Text = L"Friday";
 			// 
 			// txtP4k
 			// 
@@ -1329,7 +1329,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(51, 13);
 			this->label11->TabIndex = 9;
-			this->label11->Text = L"Czwartek";
+			this->label11->Text = L"Thursday";
 			// 
 			// txtP3k
 			// 
@@ -1350,9 +1350,9 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label10->AutoSize = true;
 			this->label10->Location = System::Drawing::Point(13, 96);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(35, 13);
+			this->label10->Size = System::Drawing::Size(64, 13);
 			this->label10->TabIndex = 6;
-			this->label10->Text = L"Œroda";
+			this->label10->Text = L"Wednesday";
 			// 
 			// txtP2k
 			// 
@@ -1373,9 +1373,9 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label9->AutoSize = true;
 			this->label9->Location = System::Drawing::Point(13, 70);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(42, 13);
+			this->label9->Size = System::Drawing::Size(48, 13);
 			this->label9->TabIndex = 3;
-			this->label9->Text = L"Wtorek";
+			this->label9->Text = L"Tuesday";
 			// 
 			// txtP1k
 			// 
@@ -1396,14 +1396,14 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label8->AutoSize = true;
 			this->label8->Location = System::Drawing::Point(13, 44);
 			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(67, 13);
+			this->label8->Size = System::Drawing::Size(45, 13);
 			this->label8->TabIndex = 0;
-			this->label8->Text = L"Poniedzialek";
+			this->label8->Text = L"Monday";
 			// 
 			// btnWDeleteUser
 			// 
 			this->btnWDeleteUser->Enabled = false;
-			this->btnWDeleteUser->Location = System::Drawing::Point(35, 511);
+			this->btnWDeleteUser->Location = System::Drawing::Point(34, 526);
 			this->btnWDeleteUser->Name = L"btnWDeleteUser";
 			this->btnWDeleteUser->Size = System::Drawing::Size(75, 23);
 			this->btnWDeleteUser->TabIndex = 8;
@@ -1414,7 +1414,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			// btnWModifyUser
 			// 
 			this->btnWModifyUser->Enabled = false;
-			this->btnWModifyUser->Location = System::Drawing::Point(137, 511);
+			this->btnWModifyUser->Location = System::Drawing::Point(136, 526);
 			this->btnWModifyUser->Name = L"btnWModifyUser";
 			this->btnWModifyUser->Size = System::Drawing::Size(75, 23);
 			this->btnWModifyUser->TabIndex = 7;
@@ -1424,7 +1424,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			// 
 			// btnWAddUser
 			// 
-			this->btnWAddUser->Location = System::Drawing::Point(240, 511);
+			this->btnWAddUser->Location = System::Drawing::Point(239, 526);
 			this->btnWAddUser->Name = L"btnWAddUser";
 			this->btnWAddUser->Size = System::Drawing::Size(75, 23);
 			this->btnWAddUser->TabIndex = 6;
@@ -1441,7 +1441,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->groupBox2->Controls->Add(this->label7);
 			this->groupBox2->Controls->Add(this->label6);
 			this->groupBox2->Controls->Add(this->label5);
-			this->groupBox2->Location = System::Drawing::Point(30, 41);
+			this->groupBox2->Location = System::Drawing::Point(21, 74);
 			this->groupBox2->Name = L"groupBox2";
 			this->groupBox2->Size = System::Drawing::Size(412, 163);
 			this->groupBox2->TabIndex = 5;
@@ -1453,9 +1453,9 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->chbWWorker->AutoSize = true;
 			this->chbWWorker->Location = System::Drawing::Point(224, 20);
 			this->chbWWorker->Name = L"chbWWorker";
-			this->chbWWorker->Size = System::Drawing::Size(61, 17);
+			this->chbWWorker->Size = System::Drawing::Size(72, 17);
 			this->chbWWorker->TabIndex = 6;
-			this->chbWWorker->Text = L"Worker";
+			this->chbWWorker->Text = L"Employee";
 			this->chbWWorker->UseVisualStyleBackColor = true;
 			this->chbWWorker->CheckedChanged += gcnew System::EventHandler(this, &Program::chbWWorker_CheckedChanged);
 			// 
@@ -1509,7 +1509,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			// 
 			// btnWSearch
 			// 
-			this->btnWSearch->Location = System::Drawing::Point(186, 12);
+			this->btnWSearch->Location = System::Drawing::Point(358, 17);
 			this->btnWSearch->Name = L"btnWSearch";
 			this->btnWSearch->Size = System::Drawing::Size(75, 23);
 			this->btnWSearch->TabIndex = 3;
@@ -1519,7 +1519,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			// 
 			// txtWSearch
 			// 
-			this->txtWSearch->Location = System::Drawing::Point(80, 15);
+			this->txtWSearch->Location = System::Drawing::Point(103, 14);
 			this->txtWSearch->Name = L"txtWSearch";
 			this->txtWSearch->Size = System::Drawing::Size(100, 20);
 			this->txtWSearch->TabIndex = 2;
@@ -1529,9 +1529,9 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->label4->AutoSize = true;
 			this->label4->Location = System::Drawing::Point(27, 17);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(47, 13);
+			this->label4->Size = System::Drawing::Size(58, 13);
 			this->label4->TabIndex = 1;
-			this->label4->Text = L"Workers";
+			this->label4->Text = L"Employees";
 			this->label4->Click += gcnew System::EventHandler(this, &Program::label4_Click);
 			// 
 			// dgUser
@@ -1541,7 +1541,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->dgUser->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
 			this->dgUser->Location = System::Drawing::Point(448, 6);
 			this->dgUser->Name = L"dgUser";
-			this->dgUser->Size = System::Drawing::Size(428, 231);
+			this->dgUser->Size = System::Drawing::Size(681, 231);
 			this->dgUser->TabIndex = 0;
 			this->dgUser->CellClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &Program::dgUser_CellClick);
 			// 
@@ -1551,7 +1551,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->tabPage1->Location = System::Drawing::Point(4, 4);
 			this->tabPage1->Name = L"tabPage1";
 			this->tabPage1->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage1->Size = System::Drawing::Size(863, 690);
+			this->tabPage1->Size = System::Drawing::Size(1193, 605);
 			this->tabPage1->TabIndex = 0;
 			this->tabPage1->Text = L"Change Password";
 			this->tabPage1->UseVisualStyleBackColor = true;
@@ -1566,7 +1566,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			this->groupBox1->Controls->Add(this->label3);
 			this->groupBox1->Controls->Add(this->label2);
 			this->groupBox1->Controls->Add(this->label1);
-			this->groupBox1->Location = System::Drawing::Point(91, 32);
+			this->groupBox1->Location = System::Drawing::Point(296, 34);
 			this->groupBox1->Name = L"groupBox1";
 			this->groupBox1->Size = System::Drawing::Size(323, 185);
 			this->groupBox1->TabIndex = 0;
@@ -1638,7 +1638,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(984, 753);
+			this->ClientSize = System::Drawing::Size(1242, 753);
 			this->Controls->Add(this->tabControl1);
 			this->Name = L"Program";
 			this->Text = L"Program";
@@ -1722,10 +1722,10 @@ private: System::Void btnCPapply_Click(System::Object^  sender, System::EventArg
 	try {
 		laczBaze->Open();
 		if (zapytanie->ExecuteNonQuery()) {
-			MessageBox::Show("Password changed");
+			MessageBox::Show("Password changed.");
 		}
 		else {
-			MessageBox::Show("Wrong password");
+			MessageBox::Show("Wrong password.");
 		}
 		laczBaze->Close();
 
@@ -1831,7 +1831,7 @@ private: System::Void dgUser_CellClick(System::Object^  sender, System::Windows:
 private: System::Void btnWAddUser_Click(System::Object^  sender, System::EventArgs^  e) {
 	//dodawanie uzytkownika do bazy
 	if (txtWName->Text->Length < 3 || txtWSurname->Text->Length < 4 || txtWLogin->Text->Length <= 5) {
-		MessageBox::Show("usupelnij dane!");
+		MessageBox::Show("Fill in all the forms!");
 	}
 	else {
 		
@@ -1854,7 +1854,7 @@ private: System::Void btnWAddUser_Click(System::Object^  sender, System::EventAr
 				polecenie->ExecuteNonQuery();
 			};
 			transakcja->Commit();
-			MessageBox::Show("dodano do bazy uzytkownika"+txtWLogin->Text+" !");
+			MessageBox::Show("Emplyee "+txtWLogin->Text+" has been added !");
 		}
 		catch (Exception^ komunikat) {
 			MessageBox::Show(komunikat->Message);
@@ -1878,7 +1878,7 @@ private: System::Void btnWModifyUser_Click(System::Object^  sender, System::Even
 	//modyfikacja danych uzytkownika
 
 	if (txtWName->Text->Length < 3 || txtWSurname->Text->Length < 4 || txtWLogin->Text->Length <=3) {
-		MessageBox::Show("uzupelnij dane!");
+		MessageBox::Show("Fill in all the forms!");
 	}
 	else {
 		
@@ -1913,7 +1913,7 @@ private: System::Void btnWModifyUser_Click(System::Object^  sender, System::Even
 			}
 			
 			transakcja->Commit();
-			MessageBox::Show("zmodyfikowano pomyœlnie dane uzytkownika  "+txtWLogin->Text+" !");
+			MessageBox::Show("Emplyees' ("+txtWLogin->Text+") data was modified !");
 		}
 		catch (Exception^ komunikat) {
 			MessageBox::Show(komunikat->Message);
@@ -1943,7 +1943,7 @@ private: System::Void btnWDeleteUser_Click(System::Object^  sender, System::Even
 	//usuwanie uzytkownika
 
 	if (id_rekordu==1) {
-		MessageBox::Show("nie mozna usuwac admina!");
+		MessageBox::Show("You can't remove the administrator!");
 	}
 	else {
 
@@ -1959,7 +1959,7 @@ private: System::Void btnWDeleteUser_Click(System::Object^  sender, System::Even
 		polecenie->Transaction = transakcja;
 		try {
 			//bardzo fajny kod pod spodem - pytanie plus odpowiedz przez okienko !!!
-			if (MessageBox::Show("Na pwewno chcesz usunac uzytkownika?", "Uwaga!!!", MessageBoxButtons::YesNo, MessageBoxIcon::Question) == System::Windows::Forms::DialogResult::Yes) {
+			if (MessageBox::Show("Are you sure?", "Warning!!!", MessageBoxButtons::YesNo, MessageBoxIcon::Question) == System::Windows::Forms::DialogResult::Yes) {
 				
 
 				polecenie->CommandText = "DELETE FROM gabinet.godziny WHERE uzytkownik_id=" + id_rekordu + "; ";
@@ -1969,7 +1969,7 @@ private: System::Void btnWDeleteUser_Click(System::Object^  sender, System::Even
 				polecenie->ExecuteNonQuery();
 
 				transakcja->Commit();
-				MessageBox::Show("usunieto uzytkownika  "+txtWLogin->Text+"" );
+				MessageBox::Show("Employee  "+txtWLogin->Text+" has been removed." );
 
 			}
 		}
@@ -2050,7 +2050,7 @@ private: System::Void button5_Click(System::Object^  sender, System::EventArgs^ 
 private: System::Void btnUDodaj_Click(System::Object^  sender, System::EventArgs^  e) {	
 	//dodawanie uslug do bazy
 	if (txtUNazwa->Text->Length < 3 || txtUCena->Text->Length < 1 || txtUCzas->Text->Length < 5) {
-		MessageBox::Show("uzupelnij dane!");
+		MessageBox::Show("Data is missing Fill in all the forms!");
 	}
 	else {
 
@@ -2068,7 +2068,7 @@ private: System::Void btnUDodaj_Click(System::Object^  sender, System::EventArgs
 			polecenie->ExecuteNonQuery();
 			
 			transakcja->Commit();
-			MessageBox::Show(" usluge dodano do bazy!");
+			MessageBox::Show("Service was sucsesfully!");
 		}
 		catch (Exception^ komunikat) {
 			MessageBox::Show(komunikat->Message);
@@ -2119,7 +2119,7 @@ private: System::Void btnUModyfikuj_Click(System::Object^  sender, System::Event
 			polecenie->ExecuteNonQuery();
 
 			transakcja->Commit();
-			MessageBox::Show("informacje o usludze zostaly pomyœlnie zmodyfikowane!  " + txtWLogin->Text + " !");
+			MessageBox::Show("Informations about " + txtUNazwa->Text + " has been modified! ");
 		}
 		catch (Exception^ komunikat) {
 			MessageBox::Show(komunikat->Message);
@@ -2148,12 +2148,12 @@ private: System::Void btnUUsun_Click(System::Object^  sender, System::EventArgs^
 		polecenie->Transaction = transakcja;
 		try {
 			//bardzo fajny kod pod spodem - pytanie plus odpowiedz przez okienko !!!
-			if (MessageBox::Show("Na pwewno chcesz usunac usluge?", "Uwaga!!!", MessageBoxButtons::YesNo, MessageBoxIcon::Question) == System::Windows::Forms::DialogResult::Yes) {
+			if (MessageBox::Show("Are you sure you want to remove this service?", "Warning!!!", MessageBoxButtons::YesNo, MessageBoxIcon::Question) == System::Windows::Forms::DialogResult::Yes) {
 				
 				polecenie->CommandText = "DELETE FROM gabinet.uslugi WHERE uslugi_id=" + id_rekordu + "; ";
 				polecenie->ExecuteNonQuery();
 				transakcja->Commit();
-				MessageBox::Show("usunieto usluge  " + txtWLogin->Text + "");
+				MessageBox::Show("Service " + txtUNazwa->Text + "has been removed");
 
 			}
 		}
@@ -2226,7 +2226,7 @@ private: System::Void dgPUUslugiNowe_CellClick(System::Object^  sender, System::
 
 	if (e->RowIndex >= 0) {
 		id_usluga = Convert::ToInt32(dgPUUslugiNowe->Rows[e->RowIndex]->Cells[0]->Value);
-		if (MessageBox::Show("Czy chcesz dodac nowa usluge praconikowi?", "Uwaga!", MessageBoxButtons::YesNo, MessageBoxIcon::Question) == System::Windows::Forms::DialogResult::Yes) {
+		if (MessageBox::Show("Do you want to add new service to employees' services?", "Attention!", MessageBoxButtons::YesNo, MessageBoxIcon::Question) == System::Windows::Forms::DialogResult::Yes) {
 
 			
 			MySqlConnection^ laczbaze = gcnew MySqlConnection(konfig);
@@ -2242,7 +2242,7 @@ private: System::Void dgPUUslugiNowe_CellClick(System::Object^  sender, System::
 				polecenie->ExecuteNonQuery();
 
 				transakcja->Commit();
-				MessageBox::Show("usluga zostala dodana do uslug oferowanych przez pracownika!");
+				MessageBox::Show("Service has been added to this employee!");
 				
 			}
 			catch (Exception^ komunikat) {
@@ -2262,7 +2262,7 @@ private: System::Void dgPUUslugi_CellClick(System::Object^  sender, System::Wind
 
 	if (e->RowIndex >= 0) {
 		id_usluga = Convert::ToInt32(dgPUUslugi->Rows[e->RowIndex]->Cells[0]->Value);
-		if (MessageBox::Show("Czy chcesz usunac usluge praconikowi?", "Uwaga!", MessageBoxButtons::YesNo, MessageBoxIcon::Question) == System::Windows::Forms::DialogResult::Yes) {
+		if (MessageBox::Show("Are you sure you want to remove this service out of emplyees' performed services?", "Warning!", MessageBoxButtons::YesNo, MessageBoxIcon::Question) == System::Windows::Forms::DialogResult::Yes) {
 
 
 			MySqlConnection^ laczbaze = gcnew MySqlConnection(konfig);
@@ -2278,7 +2278,7 @@ private: System::Void dgPUUslugi_CellClick(System::Object^  sender, System::Wind
 				polecenie->ExecuteNonQuery();
 
 				transakcja->Commit();
-				MessageBox::Show("usluga zostala USUNIETA Z uslug oferowanych przez pracownika!");
+				MessageBox::Show("Service was removed!");
 
 			}
 			catch (Exception^ komunikat) {
@@ -2327,7 +2327,7 @@ private: System::Void btnKDodaj_Click(System::Object^  sender, System::EventArgs
 
 	//dodawanie klienta do bazy
 	if (txtKImie->Text->Length < 3 || txtKImie->Text->Length < 4 ) {
-		MessageBox::Show("usupelnij dane!");
+		MessageBox::Show("Fill in all the forms!");
 	}
 	else {
 
@@ -2345,7 +2345,7 @@ private: System::Void btnKDodaj_Click(System::Object^  sender, System::EventArgs
 			polecenie->ExecuteNonQuery();
 			
 			transakcja->Commit();
-			MessageBox::Show("dodano do bazy klienta "+txtKImie->Text+"");
+			MessageBox::Show("Client "+txtKImie->Text+" has been added to database.");
 		}
 		catch (Exception^ komunikat) {
 			MessageBox::Show(komunikat->Message);
@@ -2381,7 +2381,7 @@ private: System::Void btnKModyfikuj_Click(System::Object^  sender, System::Event
 
 	//modyfikacja danych  klienta 
 	if (txtKImie->Text->Length < 3 || txtKImie->Text->Length < 4) {
-		MessageBox::Show("uzupelnij dane!");
+		MessageBox::Show("Fill in all the forms!");
 	}
 	else {
 
@@ -2400,7 +2400,7 @@ private: System::Void btnKModyfikuj_Click(System::Object^  sender, System::Event
 			polecenie->ExecuteNonQuery();
 
 			transakcja->Commit();
-			MessageBox::Show("zmodyfikowano dane klienta " + txtKImie->Text + "");
+			MessageBox::Show("Clients " + txtKImie->Text + " data has been modified.");
 		}
 		catch (Exception^ komunikat) {
 			MessageBox::Show(komunikat->Message);
@@ -2429,12 +2429,12 @@ private: System::Void btnKUsun_Click(System::Object^  sender, System::EventArgs^
 		polecenie->Connection = laczbaze;
 		polecenie->Transaction = transakcja;
 		try {
-			if (MessageBox::Show("Czy na pewno usunac  klienta " + txtKImie ->Text+ "?", "Ostrzezenie!", MessageBoxButtons::YesNo, MessageBoxIcon::Warning) == System::Windows::Forms::DialogResult::Yes) {
+			if (MessageBox::Show("Are you sure? " + txtKImie ->Text+ "?", "Warning!", MessageBoxButtons::YesNo, MessageBoxIcon::Warning) == System::Windows::Forms::DialogResult::Yes) {
 				polecenie->CommandText = "DELETE FROM gabinet.klienci WHERE klienci_id = " + id_rekordu + "; ";
 				polecenie->ExecuteNonQuery();
 
 				transakcja->Commit();
-				MessageBox::Show("zniszczono klienta " + txtKImie->Text + " !!! ");
+				MessageBox::Show("Client " + txtKImie->Text + " removed! ");
 			}
 		}
 		catch (Exception^ komunikat) {
@@ -2651,7 +2651,7 @@ private: System::Void btnRDodaj_Click(System::Object^  sender, System::EventArgs
 
 	//dodawanie rezerwacji do bazy
 	if (  id_klient<= 0 || id_usluga <= 0 || id_pracownik<= 0 || txtRTerminW->Text ->Length < 14 ) {
-		MessageBox::Show("Uzupe³nij dane!");
+		MessageBox::Show("Fill in all the forms!");
 	}
 	else {
 
@@ -2673,7 +2673,7 @@ private: System::Void btnRDodaj_Click(System::Object^  sender, System::EventArgs
 			polecenie->ExecuteNonQuery();
 
 			transakcja->Commit();
-			MessageBox::Show("Rezerwacja zosta³a dodana do bazy danych!");
+			MessageBox::Show("Reservation is set up!");
 		}
 		catch (Exception^ komunikat) {
 			MessageBox::Show(komunikat->Message);
@@ -2690,7 +2690,7 @@ private: System::Void bntRModyfikacja_Click(System::Object^  sender, System::Eve
 
 	//modyfikacja rezerwacji 
 	if (id_klient <= 0 || id_usluga <= 0 || id_pracownik <= 0 || txtRTerminW->Text->Length < 14) {
-		MessageBox::Show("Uzupe³nij dane!");
+		MessageBox::Show("Fill in all the forms!");
 	}
 	else {
 
@@ -2709,7 +2709,7 @@ private: System::Void bntRModyfikacja_Click(System::Object^  sender, System::Eve
 			polecenie->ExecuteNonQuery();
 
 			transakcja->Commit();
-			MessageBox::Show("Rezerwacja zosta³a zmodyfikowana!");
+			MessageBox::Show("Reservation has been modified modified!");
 		}
 		catch (Exception^ komunikat) {
 			MessageBox::Show(komunikat->Message);
@@ -2739,12 +2739,12 @@ private: System::Void btnRUsun_Click(System::Object^  sender, System::EventArgs^
 	polecenie->Connection = laczbaze;
 	polecenie->Transaction = transakcja;
 	try {
-		if (MessageBox::Show("Czy na pewno usunac  wybrany termin? ", "Ostrzezenie!", MessageBoxButtons::YesNo, MessageBoxIcon::Warning) == System::Windows::Forms::DialogResult::Yes) {
+		if (MessageBox::Show("Are you sure? ", "Warning!", MessageBoxButtons::YesNo, MessageBoxIcon::Warning) == System::Windows::Forms::DialogResult::Yes) {
 			polecenie->CommandText = "DELETE FROM gabinet.wizyty WHERE wizyty_id = " + id_wizyty + "; ";
 			polecenie->ExecuteNonQuery();
 
 			transakcja->Commit();
-			MessageBox::Show("Rezerwacja zosta³a usuniêta !!! ");
+			MessageBox::Show("Reservation was removed!!! ");
 		}
 	}
 	catch (Exception^ komunikat) {
