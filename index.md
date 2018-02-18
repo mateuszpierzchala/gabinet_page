@@ -10,6 +10,8 @@ Gabinet let's you manage (add, remove and modify) your:
 - customers
 - services
 - reservations
+
+
 It also provides safe way to log in. All the data is stored in mySQL database:
 
 
