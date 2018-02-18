@@ -6,14 +6,19 @@ Gabinet is a CRM software created to manage small service buissneses (employee, 
 
 ## Overview
 Gabinet let's you manage (add, remove and modify) your:
--employees
--customers
--services
--reservations
+- employees
+- customers
+- services
+- reservations
 It also provides safe way to log in. All the data is stored in mySQL database:
-'obrazek'
+
+
+```obrazek```
+
+
+
 ### Take a look at it in action!
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4-L6rEm0rnY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/4-L6rEm0rnY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
