@@ -191,7 +191,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 
 
 	public:
-		String^ konfig = L"server=localhost;user=root;database=world;port=3306;password=lolpop123!@#;";	//ustawienie stringa do wstawienia przy polaczeniu
+		String^ konfig = L"server=localhost;user=root;database=world;port=3306;password=xxx;";	//ustawienie stringa do wstawienia przy polaczeniu
 		Program(int user)
 		{
 			InitializeComponent();
@@ -203,7 +203,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 
 	protected:
 		/// <summary>
-		/// Wyczyœæ wszystkie u¿ywane zasoby.
+		/// WyczyÅ“Ã¦ wszystkie uÂ¿ywane zasoby.
 		/// </summary>
 		~Program()
 		{
@@ -215,8 +215,8 @@ private: System::Windows::Forms::Button^  btnRKlient;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Wymagana metoda obs³ugi projektanta — nie nale¿y modyfikowaæ 
-		/// zawartoœæ tej metody z edytorem kodu.
+		/// Wymagana metoda obsÂ³ugi projektanta â€” nie naleÂ¿y modyfikowaÃ¦ 
+		/// zawartoÅ“Ã¦ tej metody z edytorem kodu.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -1702,7 +1702,7 @@ private: System::Windows::Forms::Button^  btnRKlient;
 	}
 	
 	private: System::Void txtCPoldpassword_TextChanged(System::Object^  sender, System::EventArgs^  e) {
-		//wywo³anie funkcji dla przycisku
+		//wywoÂ³anie funkcji dla przycisku
 		btnCPapply_show();
 
 	}
